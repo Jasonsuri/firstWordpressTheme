@@ -1,0 +1,210 @@
+/*
+Theme Name: My First Theme
+Theme URI: https://wordpress.org/themes/wordpresstheme/
+Author: Jason Mohab-Ali
+Author URI: https://wordpress.org/
+Description: This is my first theme here on wordpress
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: firsttheme
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+body {
+    background-color: lightgray;
+    margin: 0 auto;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.container {
+    height: auto;
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 15px 15px 15px 15px;
+    margin-top: 50px;
+    border: 1px solid black;
+
+}
+
+/*H1*/
+h1 {
+    text-align: center;
+}
+
+/* MENU */
+
+header {
+    background: linear-gradient(#ff0000, #c2001e);
+    width: auto;
+    height: 10vh;
+    border: 2px solid black;
+    color: white;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+nav {
+    background-color: black;
+    position: relative;
+    top: 1vh;
+
+}
+
+nav a:hover {
+    color: red;
+    padding: 5px;
+    transition-duration: 1s;
+}
+
+nav a:link {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding-left: 0;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    list-style-type: none;
+    height: 100%;
+    position: relative;
+    bottom: 2.5vh;
+
+}
+
+nav ul li {
+    padding-left: 10px;
+}
+
+nav ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 1px;
+
+}
+
+/*DISPLAY FLEX*/
+.container2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*MAIN*/
+main {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+img {
+    margin: 10px;
+    border: double black 2px;
+    display: inline;
+    border-radius: 10px;
+    box-shadow: 5px 5px lightgray;
+
+}
+
+img:hover {
+    background-color: white;
+    transition-duration: 1s;
+    border-bottom: 5px solid red;
+}
+
+/*ASIDE*/
+aside {
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+}
+
+/*TEXT*/
+.text > img {
+    height: 30%;
+    width: 30%;
+    margin: 0 auto;
+}
+
+/*FOOTER*/
+footer {
+    padding: 14px;
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: center;
+
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.login {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    height: 5vh;
+    width: 10.05%;
+    color: black;
+    text-decoration: none;
+    border-top: 1px solid black;
+
+}
+
+.login:hover {
+    transition-duration: 1s;
+    color: red;
+    padding-right: 15px;
+
+}
+
+input {
+    width: 15vw;
+    display: inline;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+input:hover {
+    transition-duration: 1s;
+    color: white;
+    background-color: black
+}
+
+textarea {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+form {
+    z-index: 999;
+}
+
+/*TEXT STYLES*/
+
+p {
+    padding-left: 1vw;
+    text-decoration: none;
+}
+
